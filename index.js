@@ -36,19 +36,14 @@ function total() {
   // write your code here
   var sum=0;
   for(let i=0;i<cart.length;i++){
-  sum+=cart[i].itemPrice;
+  sum+=cart[i].itemPrice
   }
   return(sum);
 }
 
 function removeFromCart(item) {
   // write your code here
-  for(let i=0;i<cart.length;i++){
-    if(cart[i].itemName === item ){
-      return(cart.splice(i,1));
-    }
-    else return("That item is not in your cart.")
-  }
+
 }
 
 function placeOrder(cardNumber) {
