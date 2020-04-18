@@ -46,6 +46,7 @@ function removeFromCart(item) {
   for(let i=0;i<cart.length;i++){
     console.log("hi");
 }
+}
 
 function placeOrder(cardNumber) {
   // write your code here
