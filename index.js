@@ -24,7 +24,7 @@ function viewCart() {
     arr.push(`${cart[i].itemname} at $${cart[i].itemPrice}`)
     }
     return(`In your cart, you have ${arr}.`)
-  else {
+    else {
     return("Your shopping cart is empty.")
     }
   }
