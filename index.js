@@ -21,12 +21,12 @@ function viewCart() {
   if(cart.length>0){
     var arr=[];
     for(let i=0;i<cart.length;i++){
-    arr.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+    arr.push(` ${cart[i].itemName} at $${cart[i].itemPrice}`)
       }
     if(arr.length > 1) {
        arr[arr.length-1]=` and ${arr[arr.length-1]}`
      }
-    return(`In your cart, you have ${arr}.`)
+    return(`In your cart, you have${arr}.`)
     }
     else return("Your shopping cart is empty.")
 
