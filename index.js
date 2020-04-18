@@ -21,6 +21,12 @@ function viewCart() {
   if (cart.length>0){
     return("Your shopping cart is empty.");
   }
+  else {
+    var arr=[];
+    for(let i=0;i<cart.length;i++){
+      arr.push(`${cart[i].itemname} at $${cart[i].itemPrice}`)
+    }
+  }
 }
 
 function total() {
