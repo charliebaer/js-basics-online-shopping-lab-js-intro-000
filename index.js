@@ -25,9 +25,8 @@ function viewCart() {
       }
     }
     return(`In your cart, you have ${arr}.`)
-    else {
-    return("Your shopping cart is empty.")
-    }
+    else return("Your shopping cart is empty.")
+    
   }
 
 function total() {
