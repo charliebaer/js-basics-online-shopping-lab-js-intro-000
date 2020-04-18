@@ -24,7 +24,7 @@ function viewCart() {
     arr.push(` ${cart[i].itemName} at $${cart[i].itemPrice}`)
       }
     if(arr.length > 1) {
-       arr[arr.length-1]=` and ${arr[arr.length-1]}`
+       arr[arr.length-1]=` and${arr[arr.length-1]}`
      }
     return(`In your cart, you have${arr}.`)
     }
